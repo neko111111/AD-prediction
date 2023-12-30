@@ -1,4 +1,4 @@
-# AD-prediction
+# AD-prediction(暂未完成)
 
 data_processing.py:数据预处理  
 utils.py:工具函数  
