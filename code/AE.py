@@ -10,6 +10,7 @@ def xavier_init(m):
             m.bias.data.fill_(0.0)
 
 
+# 自动编码器模块
 class AutoEncoder(nn.Module):
     def __init__(self, num, input_size, hidden_size, output_size, dropout_rate):
         super(AutoEncoder, self).__init__()
