@@ -4,6 +4,7 @@ import torch.nn.functional as F
 from Self_Attention import MultiHeadSelfAttention
 
 
+# 注意力融合模块
 class AttentionFusion(nn.Module):
     def __init__(self, input_size,
                  hidden_size, num, output_size, dropout_rate=0):
