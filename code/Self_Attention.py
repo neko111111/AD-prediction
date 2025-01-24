@@ -42,6 +42,7 @@ class MultiHeadSelfAttention(nn.Module):
         return att
 
 
+# 跨多头自注意力模型
 class CrossAttention(nn.Module):
     def __init__(self, dim_in, dim_k, dim_v, num_heads, drop_rate):
         super(CrossAttention, self).__init__()
